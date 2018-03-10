@@ -83,7 +83,7 @@ Create an Application Elastic Load Balancer with the following properties:
 * Listen on port 80 (http)
 * Perform a health check on port 80 to the URL endpoint: `/`
 * ELB is associated with the `eco-elb-sg` security group.
-  ** Allows port 80 (http) traffice from the Internet
+  ** Allows port 80 (http) traffic from the Internet
 * Setup a target group called `ecotech-webservers`, but don't associate any EC2 instances
 with the target group.
 
